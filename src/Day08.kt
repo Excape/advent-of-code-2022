@@ -1,7 +1,4 @@
-data class Coords(val y: Int, val x: Int) {
-    fun pair() = Pair(y, x)
-}
-
+data class Coords(val y: Int, val x: Int)
 fun main() {
 
     val directions = listOf(Pair(-1, 0), Pair(1, 0), Pair(0, -1), Pair(0, 1))
