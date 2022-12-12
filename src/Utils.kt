@@ -67,3 +67,5 @@ suspend fun fetchInput(day: Int) {
 fun paddedDay(day: Int) = day.toString().padStart(2, '0')
 
 private fun readSession() = File("session").readText()
+
+data class Point(val x: Int, val y: Int)
